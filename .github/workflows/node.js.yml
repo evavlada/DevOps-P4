@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: nmp instal and build webpack
+      - name: nmp instal and run build webpack
         run: 
           nmp install
           nmp run build
